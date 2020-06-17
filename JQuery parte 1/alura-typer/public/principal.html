@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1 class="center">Alura Typer</h1>
-        <p class="frase center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestiae dolor iure sunt voluptas quae commodi provident corporis fuga, modi perspiciatis aspernatur, itaque, assumenda dolore officia eveniet nesciunt blanditiis ea?</p>
+        <p class="frase center">Irei batalhar pelos meus sonhos</p>
     
         <ul class="informacoes center">
             <li>
@@ -19,7 +19,7 @@
             </li>
             <li>
                 <i class="small material-icons icones">query_builder</i>
-                <span id="tempo-digitacao">6</span> segundos
+                <span id="tempo-digitacao">10</span> segundos
             </li>
         </ul>
     
@@ -35,10 +35,37 @@
             <li><span id="contador-caracteres">0</span> caracteres</li>
             <li><span id="contador-palavras">0</span> palavras</li>
         </ul>
+
+        <section class="placar">
+            <h3 class="center">Placar</h3>
+            <table class="centered bordered">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>No. de palavras</th>
+                        <th>Remover</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Usuario Padrao</td>
+                        <td>10</td>
+                        <td>
+                            <a href="#" class="botao-remover">
+                                <i class="small material-icons">delete</i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </div>
 
     <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/placar.js"></script>
 
 </body>
 </html>
